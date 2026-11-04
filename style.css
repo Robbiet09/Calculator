@@ -1,0 +1,37 @@
+* {box-sizing: border-box;
+}
+
+body {
+    margin:0;
+}
+
+.frame{ 
+    background-color: #444444; 
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.calculator-body{
+    background-color: #191919;
+    aspect-ratio: 660/1200;
+    height: 90vh;
+    box-sizing: border-box;
+    padding-top: 15vh;
+    padding-bottom: 1.5vh;
+}
+
+.button-body{
+    background-color: #3A3939;
+    height: 100%;
+    padding-top: 3.075vh;
+    padding-left: 4.8vh;
+    padding-right: 4.8vh;
+}
+
+.screen{
+    background-color:#788DC7;
+    width: 100%;
+    height: 11.25vh;
+}
