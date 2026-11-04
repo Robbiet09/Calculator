@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "DSEG7";
+    src: url("Fonts/DSEG7Classic-Regular.woff2") format("woff2");
+}
+
 * {box-sizing: border-box;
 }
 
@@ -14,20 +19,58 @@ body {
 }
 
 .calculator-body{
+    position: relative;
     background-color: #191919;
     aspect-ratio: 660/1200;
     height: 90vh;
-    box-sizing: border-box;
     padding-top: 15vh;
     padding-bottom: 1.5vh;
+    border-radius: 3vh;
+    padding-left: 1.5vh;
+    padding-right: 1.5vh;
+}
+
+.solar-charge{
+    background-color: #482727;
+    background-image: repeating-linear-gradient(
+    to right,
+    #482727 0,
+    #482727 3.6vh,
+    #FFFFFF 3.6vh,
+    #FFFFFF 3.75vh
+    );
+    background-size: 22.5vh 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 26.25vh;
+    height: 3.75vh;
+    left: 18.75vh;
+    top: 3.75vh;
+}
+
+.logo{
+    display: flex;
+    position: absolute;
+    background-color: #191919;
+    font-family: "Gabriola";
+    font-size: 3.75vh;
+    color: #FFFFFF;
+    width: 12.375vh;
+    height: 6.375vh;
+    left: 3.75vh;
+    top: 3vh;
+    justify-content: center;
+    align-items: center;
 }
 
 .button-body{
     background-color: #3A3939;
+    width:100%;
     height: 100%;
     padding-top: 3.075vh;
-    padding-left: 4.8vh;
-    padding-right: 4.8vh;
+    padding-left: 2.25vh;
+    padding-right: 2.25vh;
+    border-radius: 3.75vh;
 }
 
 .screen{
